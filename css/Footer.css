@@ -1,0 +1,75 @@
+/*conteneur du formulaire et du contact*/
+footer {
+    display : flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+}
+
+/* FORMULAIRE -----------------------------------*/
+
+/*container Tableau*/
+footer > form {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    width : 100%;
+    margin : 5px 10px;
+}
+
+/* Pour les champs de type texte*/
+footer input[type="text"] {
+    width : 100%;
+    height : 30px;
+    box-sizing: border-box;
+}
+
+/* cellule de description */
+.description{
+    grid-column: 1 / 3;
+    margin : 0;
+    padding : 0;
+}
+
+/* zone de texte*/
+.description textarea {
+    text-align: left;
+    width : 100%;
+    min-height : 80px;
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+/* bouton Envoyer*/
+footer input[type="submit"] {
+    background-color: rgb(7, 7, 73);
+    color: white;
+    border : none;
+    width : 80px;
+    height : 35px;
+    border-radius : 3px;
+    margin : 5px;
+}
+
+/*Cellule avec checkbox ET bouton Envoyer*/
+footer form div:last-child {
+    margin : 10px;
+}
+
+/* CONTACT -----------------------------------*/
+footer > div {
+    border-left : 1px solid black;
+    padding : 5px;
+}
+
+/* titre*/
+footer > div > h4 {
+    font-size : 18px;
+    margin : 5px;
+}
+
+/*coordonées*/
+footer > div > p {
+    font-size : 12px;
+    margin : 5px;
+}
