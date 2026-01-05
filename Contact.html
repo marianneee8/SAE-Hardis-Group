@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Contact.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Hardis Group</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#"> <img src="img/Logo-HardisGroup-header.png" alt="Logo de Hardis Group"> </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">
+                        <h2>Accueil</h2>
+                    </a></li>
+                <li><a href="Presentation.html">
+                        <h2>Présentation</h2>
+                    </a></li>
+                <li><a href="Environnement.html">
+                        <h2>Environnement</h2>
+                    </a></li>
+                <li><a href="Numerique.html">
+                        <h2>Numérique</h2>
+                    </a></li>
+                <li><a href="Rejoindre.html">
+                        <h2>Nous rejoindre</h2>
+                    </a></li>
+                <li><a href="Contact.html">
+                        <h2>Contactez-nous</h2>
+                    </a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <a href="https://www.youtube.com/user/GroupeHardis">
+                <img src="img/LogoYoutube3.png" alt="Youtube de Hardis Group">
+            </a>
+            <a href="https://fr-fr.facebook.com/hardisgroup">
+                <img src="img/LogoFacebook.png" alt="Facebook de Hardis Group">
+            </a>
+            <a href="https://fr.linkedin.com/company/hardisgroup">
+                <img src="img/LogoLinkedin.webp" alt="Linkedin de Hardis Group">
+            </a>
+
+        </div>
+    </header>
+
+
+    <main>
+        <div class="txt">
+            <h2>Hardis Group</h2>
+            <h1>Contactez-nous</h1>
+            <h3>Complétez le formulaire ci-dessous et appuyez sur "Envoyer"</h3>
+        </div>
+        <section class="contact">
+            <form action="Contact.html" method="GET">
+                <img src="img/LogoHardisGroup.png" alt="Logo-Hardis">
+                <div>
+                    <label for="Prenom">Prénom :</label>
+                    <input id="prenom" type="text" name="prenom" placeholder="Prénom" required>
+                </div>
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input id="nom" type="text" name="nom" placeholder="Nom" required>
+                </div>
+                <div>
+                    <label for="AdM">Adresse email :</label>
+                    <input id="AdM" type="email" name="AdM" placeholder="Adresse email" required>
+                </div>
+                <div class="bas">
+                    <label for="besoin"></label>
+                    <textarea id="besoin" placeholder="Description de votre besoin"></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="politique" required> J'accepte que mes informations à caractère
+                    personnel soient collectées et traitées selon les conditions décrites à la page
+                    <a href="https://www.hardis-group.com/politique-de-confidentialite/"> Politique de
+                        confidentialité.</a>
+                    <input type="submit" value="Envoyer" class="btn">
+                </div>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <form action="#" method="GET">
+            <div>
+                <input type="text" name="prenom" placeholder="Prénom" required>
+            </div>
+            <div>
+                <input type="text" name="nom" placeholder="Nom" required>
+            </div>
+            <div>
+                <input type="text" name="mail" placeholder="Adresse email" required>
+            </div>
+            <div class="description">
+                <textarea name="description" id="description" placeholder="Description de votre besoin"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="politique" required> J'ai lu et j'accepte la Politique de
+                confidentialité. <br>
+                <input type="submit" value="Envoyer">
+            </div>
+
+        </form>
+
+        <div>
+            <h4>CONTACT</h4>
+            <p>
+                Courriel : informations@hardis.fr <br>
+                Tél : 0033 (0)4 76 70 80 50 <br>
+                Adresse: <br>
+                3 rue Paul Valérien Perrin <br>
+                38170 SEYSSINET-PARISET
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>

@@ -1,6 +1,6 @@
 body { 
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
+    background-color: rgb(26, 26, 26);
     margin: 0;
 }
 
@@ -15,7 +15,7 @@ main section:first-child {
 main section:first-child img {
     width: 75%;
     border-radius: 20px;
-    box-shadow: -10px 10px 10px grey;
+    box-shadow: -10px 10px 10px black;
 }
 
 main section:first-child div {
@@ -24,7 +24,7 @@ main section:first-child div {
     background-color: rgb(97, 97, 97);
     border-radius: 20px;
     color:white;
-    box-shadow: -10px 10px 10px grey;
+    box-shadow: -10px 10px 10px black;
 }
 
 main section:first-child div p {
@@ -53,4 +53,8 @@ main section:last-child div{
     margin: 20px;
     width: 60%;
     font-size: 18px;
+}
+
+.actions li {
+    margin-bottom : 15px;
 }
